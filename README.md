@@ -25,7 +25,13 @@ npm run dev
 
 Open the URL Vite prints (by default `http://localhost:5173/`).
 
-To send data to Sentry, add a `VITE_SENTRY_DSN` (and optionally `VITE_APP_VERSION`) in `.env.local` or `.env`. Restart the dev server after changing env files.
+To send data to Sentry, add these environment variables in `.env.local` or `.env`. Restart the dev server after changing env files.
+```bash
+VITE_SENTRY_DSN=
+SENTRY_ORG=
+SENTRY_PROJECT=
+SENTRY_AUTH_TOKEN=
+```
 
 ## Scripts
 
